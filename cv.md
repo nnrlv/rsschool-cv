@@ -22,3 +22,9 @@ Bachelor in Computer Science Degree
 
 **RS School JS/FE Pre-School 2025Q2**   
 2025 - now
+
+
+## Languages
+
+- **Russian** - Fluent
+- **English** - Intermediate
