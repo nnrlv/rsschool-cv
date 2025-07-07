@@ -1,1 +1,1 @@
-CV link: https://nnrlv.github.io/rsschool-cv/cv
+CV link: https://nnrlv.github.io/rsschool-cv
