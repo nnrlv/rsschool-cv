@@ -1,142 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Anna Orlova CV</title>
-</head>
-<body>
-    <header>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <nav>
+          <ul class="navigation-list">
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
         <h1>Anna Orlova</h1>
         <h2>Junior Fullstack developer</h2>
-        <nav>
-            <!--TODO: add navigation-->
-        </nav>
-        <section class="contacts">
-            <h3>Contacts</h3>
-            <ul>
-                <li>
-                    <a href="https://t.me/nnr1v">Telegram</a>
-                </li>
-                <li>
-                    <a href="https://vk.com/nnrlv">VK</a>
-                </li>
-                <li>
-                    <a href="anna2003orlova@gmail.com">Gmail</a>
-                </li>
-                <li>
-                    <a href="https://github.com/nnrlv">GitHub</a>
-                </li>
-            </ul>
-        </section>
-    </header>
-    <main>
-        <img src="assets/img/photo.jpg" alt="Anna Orlova photo">
-        <section class="about-me">
-            <h3>About me</h3>
-            <p>.NET backend developer trying to get into frontend development with the goal of becoming a fullstack</p>
-        </section>
+      </header>
+      <main>
+        <table class="main-container-table">
+          <tr>
+            <td class="main-container-table-column">
+              <img
+                class="photo"
+                src="assets/img/photo.jpg"
+                alt="Anna Orlova photo"
+              />
 
-        <section class="skills">
-            <h3>Skills</h3>
-            <h4>Frontend</h4>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
+              <section id="about-me" class="about-me">
+                <h3>About me</h3>
+                <p>
+                  .NET backend developer trying to get into frontend development
+                  with the goal of becoming a fullstack
+                </p>
+              </section>
+
+              <section id="education" class="education">
+                <h3>Education</h3>
+                <p>
+                  <b><u>Voronezh State University</u></b
+                  ><br />
+                  2021 - 2025<br />
+                  Bachelor in Computer Science Degree<br />
+                </p>
+              </section>
+
+              <section id="courses" class="courses">
+                <h3>Courses</h3>
+                <p>
+                  <b><u>DSR .NET School</u></b
+                  ><br />
+                  2023 - 2024<br />
+                  <a
+                    href="https://certificates.dsr-corporation.com/courseCertificates/66432566e228660380dbed6e"
+                    >.NET Software Development Certificate</a
+                  >
+                </p>
+
+                <p>
+                  <b><u>RS School JS/FE Pre-School 2025Q2</u></b
+                  ><br />
+                  2025 - now
+                </p>
+              </section>
+
+              <section id="languages" class="languages">
+                <h3>Languages</h3>
+                <ul class="languages-list">
+                  <li>
+                    <p><b>Russian:</b> Fluent</p>
+                  </li>
+                  <li>
+                    <p><b>English:</b> Intermediate</p>
+                  </li>
                 </ul>
-            <h4>Backend</h4>
+              </section>
+            </td>
+
+            <td class="main-container-table-column">
+              <section id="contacts" class="contacts">
+                <h3>Contacts</h3>
                 <ul>
-                    <li>C#</li>
-                    <li>.NET</li>
-                    <li>ASP.NET</li>
-                    <li>Entity Framework</li>
-                    <li>SQL Server / PostgreSQL</li>
-                    <li>ClickHouse</li>
-                    <li>Redis</li>
-                    <li>Kafka</li>
-                    <li>RabbitMQ</li>
+                  <li>
+                    <b>Telegram:</b> <a href="https://t.me/nnr1v">nnr1v</a>
+                  </li>
+                  <li>
+                    <b>Gmail:</b>
+                    <a href="anna2003orlova@gmail.com"
+                      >anna2003orlova@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <b>GitHub:</b> <a href="https://github.com/nnrlv">nnrlv</a>
+                  </li>
+                  <li><b>RS School Discord:</b> Anna Orlova @nnrlv</li>
                 </ul>
-            <h4>Tools</h4>
+              </section>
+
+              <section id="skills" class="skills">
+                <h3>Skills</h3>
+                <table class="skills-table">
+                  <tr>
+                    <td class="skills-table-column">
+                      <h4>Frontend</h4>
+                    </td>
+                    <td class="skills-table-column">
+                      <h4>Backend</h4>
+                    </td>
+                    <td class="skills-table-column">
+                      <h4>Tools</h4>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="skills-table-column">
+                      <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                      </ul>
+                    </td>
+                    <td class="skills-table-column">
+                      <ul>
+                        <li>C#</li>
+                        <li>.NET</li>
+                        <li>ASP.NET</li>
+                        <li>Entity Framework</li>
+                        <li>SQL Server</li>
+                        <li>PostgreSQL</li>
+                        <li>ClickHouse</li>
+                        <li>Redis</li>
+                        <li>Kafka</li>
+                        <li>RabbitMQ</li>
+                      </ul>
+                    </td>
+                    <td class="skills-table-column">
+                      <ul>
+                        <li>Git</li>
+                        <li>Docker</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
+              </section>
+
+              <section id="projects" class="projects">
+                <h3>Projects</h3>
                 <ul>
-                    <li>Git</li>
-                    <li>Docker</li>
-                </ul>
-        </section>
-
-         <section class="projects">
-            <h3>Projects</h3>
-            <ul>
-                <li>
-                    <a href="https://nnrlv.github.io/rsschool-cv">CV</a>
-                    <p>HTML, CSS</p>
-                </li>
-                <li>
-                    <a href="https://github.com/nnrlv/CulinaryRecipes">Culinary Recipes API</a>
-                    <p>ASP.NET Core, Entity Framework, PostgreSQL, RabbitMQ, Redis, Docker</p>
-                </li>
-            </ul>
-        </section>
-
-        <section class="education">
-            <h3>Education</h3>
-            <p>
-                <b>Voronezh State University</b>
-            </p>
-            <p>2021 - 2025</p>
-            <p>Bachelor in Computer Science Degree</p>
-        </section>
-
-        <section class="courses">
-            <h3>Courses</h3>
-            <p>
-                <b>DSR .NET School</b>
-            </p>
-            <p>2023 - 2024</p>
-            <a href="https://certificates.dsr-corporation.com/courseCertificates/66432566e228660380dbed6e">.NET Software Development Certificate</a>
-
-            <p>
-                <b>RS School JS/FE Pre-School 2025Q2</b>
-            </p>
-            <p>2025 - now</p>
-        </section>
-
-        <section class="languages">
-            <h3>Languages</h3>
-            <ul>
-                <li>
+                  <li>
                     <p>
-                        <b>Russian</b>
+                      <b><u>CV:</u></b> HTML, CSS<br />
+                      <a href="https://nnrlv.github.io/rsschool-cv">
+                        https://nnrlv.github.io/rsschool-cv
+                      </a>
                     </p>
-                    <p>Fluent</p>
-                </li>
-                <li>
+                  </li>
+                  <li>
                     <p>
-                        <b>English</b>
+                      <b><u>Culinary Recipes API:</u></b> ASP.NET Core, Entity
+                      Framework, PostgreSQL, RabbitMQ, Redis, Docker<br />
+                      <a href="https://github.com/nnrlv/CulinaryRecipes">
+                        https://github.com/nnrlv/CulinaryRecipes
+                      </a>
                     </p>
-                    <p>Intermediate</p>
-                </li>
-            </ul>
-        </section>
+                  </li>
+                </ul>
+              </section>
 
-        <section class="code-example">
-            <h3>Code example</h3>
-            <pre>
+              <section class="code-example">
+                <h3>Code example</h3>
+                <pre>
                 <code>
-                    function multiply(a, b){
-                        a * b
-                    }
+function multiply(a, b){
+    a * b
+}
                 </code>
-            </pre>
-        </section>
-    </main>
+                </pre>
+              </section>
+            </td>
+          </tr>
+        </table>
+      </main>
 
-    <footer>
-        <img src="assets/img/github-logo.svg" alt="GitHub logo">
-        <a href="https://github.com/nnrlv">GitHub</a>
-        <p>2025</p>
-        <a href="https://rs.school/courses/javascript-preschool-ru"></a>
-        <img src="assets/img/rs-school-logo.svg" alt="RS School logo">
-
-    </footer>
-</body>
+      <footer>
+        <div class="create-line"></div>
+        <img
+          class="logo footer-element"
+          src="assets/img/github-logo.svg"
+          alt="GitHub logo"
+        />
+        <a class="footer-element githib-link" href="https://github.com/nnrlv"
+          >nnrlv</a
+        >
+        <span class="footer-element">2025</span>
+        <a
+          class="footer-element"
+          href="https://rs.school/courses/javascript-preschool-ru"
+          >RS School JS/FE Pre-School 2025Q2</a
+        >
+        <img
+          class="logo footer-element"
+          src="assets/img/rs-school-logo.svg"
+          alt="RS School logo"
+        />
+      </footer>
+    </div>
+    <p></p>
+  </body>
 </html>
