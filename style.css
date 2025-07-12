@@ -51,8 +51,12 @@ header {
 .main-container {
   text-align: center;
   font-family: "Poppins", sans-serif;
+  width: 820px;
+  margin: auto;
   background-color: white;
-  width: 45%;
+}
+
+.main-container-table {
   margin: auto;
 }
 
