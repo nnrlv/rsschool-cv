@@ -131,7 +131,7 @@ header {
 }
 
 .create-line {
-  border-top: solid black 0.1px;
+  border-top: solid black 0.99px;
   margin-bottom: 10px;
 }
 
